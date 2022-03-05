@@ -1,0 +1,28 @@
+CRITICAL - 2021-02-01 20:05:23 --> Undefined offset: 0
+#0 /home1/nankocom/nanko/app/Controllers/Clientes.php(775): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home1/nankocom...', 775, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Clientes->login()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-01 20:09:23 --> Undefined offset: 0
+#0 /home1/nankocom/nanko/app/Controllers/Clientes.php(775): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home1/nankocom...', 775, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Clientes->login()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-01 20:09:33 --> Undefined offset: 0
+#0 /home1/nankocom/nanko/app/Controllers/Clientes.php(775): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home1/nankocom...', 775, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Clientes->login()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-01 21:01:10 --> Undefined offset: 0
+#0 /home1/nankocom/nanko/app/Controllers/Clientes.php(776): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home1/nankocom...', 776, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Clientes->login()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

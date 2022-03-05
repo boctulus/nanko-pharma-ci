@@ -1,0 +1,103 @@
+CRITICAL - 2020-09-01 00:18:26 --> Undefined index: id_user
+#0 C:\xampp\htdocs\nanko\app\Controllers\Padecimientos.php(50): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 50, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Padecimientos->editar_padecimiento()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padecimientos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-01 00:25:34 --> Undefined index: nombre
+#0 C:\xampp\htdocs\nanko\app\Controllers\Padecimientos.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Padecimientos->editar_padecimiento()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padecimientos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-01 00:25:53 --> Undefined index: nombre
+#0 C:\xampp\htdocs\nanko\app\Controllers\Padecimientos.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Padecimientos->editar_padecimiento()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padecimientos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-01 00:26:21 --> Undefined variable: descipcion
+#0 C:\xampp\htdocs\nanko\app\Views\Administrador\Modal\editar_padecimiento.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\nanko\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Administrador/M...', Array, true)
+#3 C:\xampp\htdocs\nanko\app\Controllers\Padecimientos.php(58): view('Administrador/M...', Array)
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Padecimientos->editar_padecimiento()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padecimientos))
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-09-01 00:31:47 --> Undefined index: id_pad
+#0 C:\xampp\htdocs\nanko\app\Controllers\Padecimientos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Padecimientos->editar_padecimiento()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padecimientos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-01 00:32:55 --> Undefined index: id_pad
+#0 C:\xampp\htdocs\nanko\app\Controllers\Padecimientos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Padecimientos->editar_padecimiento()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padecimientos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-01 00:33:05 --> Undefined index: descipcion
+#0 C:\xampp\htdocs\nanko\app\Controllers\Padecimientos.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 66, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Padecimientos->editar_padecimiento()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padecimientos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-01 00:57:27 --> Call to a member function set() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Padecimientos->reactivar_padecimiento()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padecimientos))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-09-01 01:15:12 --> Undefined variable: productos
+#0 C:\xampp\htdocs\nanko\app\Views\Administrador\Modal\editar_padecimiento.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\nanko\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Administrador/M...', Array, true)
+#3 C:\xampp\htdocs\nanko\app\Controllers\Padecimientos.php(58): view('Administrador/M...', Array)
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Padecimientos->editar_padecimiento()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padecimientos))
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-09-01 23:23:43 --> Unknown column 'id_producto' in 'where clause'
+#0 C:\xampp\htdocs\nanko\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\nanko\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\nanko\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\nanko\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\nanko\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nanko\app\Controllers\Padecimientos.php(68): CodeIgniter\Model->findAll()
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Padecimientos->editar_padecimiento()
+#7 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padecimientos))
+#8 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-09-01 23:23:44 --> Unknown column 'id_producto' in 'where clause'
+#0 C:\xampp\htdocs\nanko\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\nanko\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\nanko\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\nanko\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\nanko\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nanko\app\Controllers\Padecimientos.php(68): CodeIgniter\Model->findAll()
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Padecimientos->editar_padecimiento()
+#7 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padecimientos))
+#8 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}

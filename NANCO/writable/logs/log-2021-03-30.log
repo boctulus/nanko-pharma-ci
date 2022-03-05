@@ -1,0 +1,8 @@
+CRITICAL - 2021-03-30 15:21:14 --> Descifrado: autenticación fallida.
+#0 /home1/nankocom/nanko/system/Encryption/Handlers/OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /home1/nankocom/nanko/app/Controllers/Clientes.php(2302): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Clientes->calcular_dosis()
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#4 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

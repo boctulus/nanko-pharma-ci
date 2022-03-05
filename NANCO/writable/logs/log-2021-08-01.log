@@ -1,0 +1,48 @@
+CRITICAL - 2021-08-01 01:10:27 --> Descifrado: autenticación fallida.
+#0 /home1/nankocom/nanko/system/Encryption/Handlers/OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /home1/nankocom/nanko/app/Controllers/Productos.php(521): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Productos->editar_producto()
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-01 01:10:35 --> Descifrado: autenticación fallida.
+#0 /home1/nankocom/nanko/system/Encryption/Handlers/OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /home1/nankocom/nanko/app/Controllers/Productos.php(521): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Productos->editar_producto()
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-01 01:10:38 --> Descifrado: autenticación fallida.
+#0 /home1/nankocom/nanko/system/Encryption/Handlers/OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /home1/nankocom/nanko/app/Controllers/Productos.php(521): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Productos->editar_producto()
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-01 01:11:19 --> Descifrado: autenticación fallida.
+#0 /home1/nankocom/nanko/system/Encryption/Handlers/OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /home1/nankocom/nanko/app/Controllers/Productos.php(521): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Productos->editar_producto()
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-01 01:11:34 --> Descifrado: autenticación fallida.
+#0 /home1/nankocom/nanko/system/Encryption/Handlers/OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /home1/nankocom/nanko/app/Controllers/Productos.php(521): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Productos->editar_producto()
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-01 01:12:08 --> Descifrado: autenticación fallida.
+#0 /home1/nankocom/nanko/system/Encryption/Handlers/OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /home1/nankocom/nanko/app/Controllers/Productos.php(521): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Productos->editar_producto()
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

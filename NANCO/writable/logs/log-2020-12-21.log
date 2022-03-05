@@ -1,0 +1,24 @@
+CRITICAL - 2020-12-21 22:47:50 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\nanko\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\nanko\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\nanko\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\nanko\app\Controllers\Envios.php(109): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\nanko\app\Controllers\Envios.php(19): App\Controllers\Envios->mostrar_ordenes()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Envios->index()
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Envios))
+#7 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-12-21 22:47:55 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\nanko\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\nanko\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\nanko\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\nanko\app\Controllers\Envios.php(109): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\nanko\app\Controllers\Envios.php(19): App\Controllers\Envios->mostrar_ordenes()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Envios->index()
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Envios))
+#7 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}

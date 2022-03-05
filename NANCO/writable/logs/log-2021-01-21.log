@@ -1,0 +1,12 @@
+CRITICAL - 2021-01-21 11:04:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `peso_max` >=)' at line 3
+#0 /home1/nankocom/nanko/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home1/nankocom/nanko/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home1/nankocom/nanko/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home1/nankocom/nanko/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home1/nankocom/nanko/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 /home1/nankocom/nanko/app/Controllers/Clientes.php(1284): CodeIgniter\Model->findAll()
+#6 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Clientes->calcular_dosis()
+#7 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#8 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

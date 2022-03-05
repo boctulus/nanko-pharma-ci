@@ -1,0 +1,32 @@
+CRITICAL - 2020-09-26 01:31:05 --> Unknown column 'estado' in 'where clause'
+#0 C:\xampp\htdocs\nanko\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\nanko\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\nanko\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\nanko\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\nanko\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(112): CodeIgniter\Model->findAll()
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->get_detalles()
+#7 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-09-26 01:31:55 --> Undefined index: idProducto
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->get_detalles()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-26 01:32:25 --> Undefined variable: id_producto
+#0 C:\xampp\htdocs\nanko\app\Views\Administrador\Modal\detalles_producto.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\nanko\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Administrador/M...', Array, true)
+#3 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(145): view('Administrador/M...', Array)
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->get_detalles()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

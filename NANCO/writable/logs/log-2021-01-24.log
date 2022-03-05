@@ -1,0 +1,8 @@
+CRITICAL - 2021-01-24 13:46:31 --> Undefined index: apellidos
+#0 /home1/nankocom/nanko/app/Controllers/Colaboradores.php(275): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home1/nankocom...', 275, Array)
+#1 /home1/nankocom/nanko/app/Controllers/Colaboradores.php(18): App\Controllers\Colaboradores->mostrar_Colaboradores()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Colaboradores->index()
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#4 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,1 @@
+__ci_last_regenerate|i:1608061632;_ci_previous_url|s:36:"http://localhost:8080/Clientes/login";error|a:2:{s:4:"tipo";s:5:"login";s:5:"error";a:1:{s:4:"pass";s:71:"El campo pass solo puede contener caracteres alfanuméricos y espacios.";}}__ci_vars|a:1:{s:5:"error";s:3:"new";}

@@ -1,0 +1,77 @@
+CRITICAL - 2021-02-13 11:23:55 --> Undefined offset: 0
+#0 /home1/nankocom/nanko/app/Controllers/Productos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home1/nankocom...', 48, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Productos->get_dosis()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 11:23:58 --> Undefined offset: 0
+#0 /home1/nankocom/nanko/app/Controllers/Productos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home1/nankocom...', 48, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Productos->get_dosis()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 11:23:59 --> Undefined offset: 0
+#0 /home1/nankocom/nanko/app/Controllers/Productos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home1/nankocom...', 48, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Productos->get_dosis()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 11:24:00 --> Undefined offset: 0
+#0 /home1/nankocom/nanko/app/Controllers/Productos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home1/nankocom...', 48, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Productos->get_dosis()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 11:24:06 --> Undefined offset: 0
+#0 /home1/nankocom/nanko/app/Controllers/Productos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home1/nankocom...', 48, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Productos->get_dosis()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 11:24:12 --> Undefined offset: 0
+#0 /home1/nankocom/nanko/app/Controllers/Productos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home1/nankocom...', 48, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Productos->get_dosis()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 11:24:17 --> Undefined offset: 0
+#0 /home1/nankocom/nanko/app/Controllers/Productos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home1/nankocom...', 48, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Productos->get_dosis()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 11:34:41 --> Undefined offset: 0
+#0 /home1/nankocom/nanko/app/Controllers/Productos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home1/nankocom...', 48, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Productos->get_dosis()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 11:34:56 --> Undefined offset: 0
+#0 /home1/nankocom/nanko/app/Controllers/Productos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home1/nankocom...', 48, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Productos->get_dosis()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 11:35:40 --> Undefined offset: 0
+#0 /home1/nankocom/nanko/app/Controllers/Productos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home1/nankocom...', 49, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Productos->get_dosis()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-13 11:59:28 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 /home1/nankocom/nanko/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('Productos')
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle('Productos')
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

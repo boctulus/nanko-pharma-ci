@@ -1,0 +1,42 @@
+CRITICAL - 2021-02-10 22:01:10 --> Undefined index: nombre_p
+#0 /home1/nankocom/nanko/app/Controllers/Productos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home1/nankocom...', 48, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Productos->get_dosis()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-10 22:01:10 --> Undefined index: nombre_p
+#0 /home1/nankocom/nanko/app/Controllers/Productos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home1/nankocom...', 48, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Productos->get_dosis()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-10 22:01:10 --> Undefined index: nombre_p
+#0 /home1/nankocom/nanko/app/Controllers/Productos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home1/nankocom...', 48, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Productos->get_dosis()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-10 22:01:20 --> Undefined index: nombre_p
+#0 /home1/nankocom/nanko/app/Controllers/Productos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home1/nankocom...', 48, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Productos->get_dosis()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-10 22:01:40 --> Undefined index: nombre_p
+#0 /home1/nankocom/nanko/app/Controllers/Productos.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home1/nankocom...', 48, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Productos->get_dosis()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-10 22:02:15 --> Undefined index: nombre_p
+#0 /home1/nankocom/nanko/app/Controllers/Productos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home1/nankocom...', 49, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Productos->get_dosis()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

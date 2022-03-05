@@ -1,0 +1,33 @@
+CRITICAL - 2020-09-23 00:00:41 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 75, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->nuevo_producto()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-23 00:02:13 --> Undefined index: Nombre
+#0 C:\xampp\htdocs\nanko\app\Controllers\Padecimientos.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 129, Array)
+#1 C:\xampp\htdocs\nanko\app\Controllers\Padecimientos.php(18): App\Controllers\Padecimientos->mostrar_padecimientos()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Padecimientos->index()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padecimientos))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-09-23 00:11:49 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->nuevo_producto()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-23 00:12:17 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(74): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 74, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->nuevo_producto()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

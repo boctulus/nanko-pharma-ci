@@ -1,0 +1,42 @@
+CRITICAL - 2020-08-30 17:33:54 --> Undefined variable: login
+#0 C:\xampp\htdocs\nanko\app\Views\Administrador\mostrar_padecimientos.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\nanko\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Administrador/m...', Array, true)
+#3 C:\xampp\htdocs\nanko\app\Controllers\Padecimientos.php(42): view('Administrador/m...', Array)
+#4 C:\xampp\htdocs\nanko\app\Controllers\Padecimientos.php(18): App\Controllers\Padecimientos->mostrar_padecimientos()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Padecimientos->index()
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padecimientos))
+#7 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-08-30 18:54:28 --> Undefined index: idPAdecimiento
+#0 C:\xampp\htdocs\nanko\app\Controllers\Padecimientos.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Padecimientos->mostrar_padecimientos()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padecimientos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-08-30 18:54:46 --> Undefined index: nombre
+#0 C:\xampp\htdocs\nanko\app\Views\Administrador\mostrar_padecimientos.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 49, Array)
+#1 C:\xampp\htdocs\nanko\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Administrador/m...', Array, true)
+#3 C:\xampp\htdocs\nanko\app\Controllers\Padecimientos.php(42): view('Administrador/m...', Array)
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Padecimientos->mostrar_padecimientos()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padecimientos))
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-08-30 19:00:32 --> Undefined index: id_login
+#0 C:\xampp\htdocs\nanko\app\Views\Administrador\mostrar_padecimientos.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\nanko\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Administrador/m...', Array, true)
+#3 C:\xampp\htdocs\nanko\app\Controllers\Padecimientos.php(42): view('Administrador/m...', Array)
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Padecimientos->mostrar_padecimientos()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padecimientos))
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

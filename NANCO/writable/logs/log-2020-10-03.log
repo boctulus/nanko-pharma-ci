@@ -1,0 +1,30 @@
+CRITICAL - 2020-10-03 12:46:57 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\nanko\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\nanko\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\nanko\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\nanko\app\Controllers\Blog.php(200): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Blog->mostrar_entradas()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-03 12:47:11 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\nanko\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\nanko\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\nanko\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\nanko\app\Controllers\Blog.php(200): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Blog->mostrar_entradas()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-10-03 14:47:55 --> Undefined index: id_blg
+#0 C:\xampp\htdocs\nanko\app\Controllers\Blog.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Blog->editar_blog()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}

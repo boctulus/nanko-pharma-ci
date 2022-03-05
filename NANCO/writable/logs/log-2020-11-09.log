@@ -1,0 +1,173 @@
+CRITICAL - 2020-11-09 00:30:00 --> Column 'subir_2' cannot be null
+#0 C:\xampp\htdocs\nanko\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `do...')
+#1 C:\xampp\htdocs\nanko\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\nanko\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\nanko\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\nanko\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(88): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->nueva_dosis()
+#7 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-11-09 00:41:16 --> Undefined index: resultado
+#0 C:\xampp\htdocs\nanko\app\Views\Administrador\Modal\detalles_dosis.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\nanko\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Administrador/M...', Array, true)
+#3 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(56): view('Administrador/M...', Array)
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->get_dosis()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-09 00:41:17 --> Undefined index: resultado
+#0 C:\xampp\htdocs\nanko\app\Views\Administrador\Modal\detalles_dosis.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\nanko\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Administrador/M...', Array, true)
+#3 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(56): view('Administrador/M...', Array)
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->get_dosis()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-09 00:41:42 --> Undefined index: resultado
+#0 C:\xampp\htdocs\nanko\app\Views\Administrador\Modal\detalles_dosis.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\nanko\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Administrador/M...', Array, true)
+#3 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(56): view('Administrador/M...', Array)
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->get_dosis()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-09 00:42:33 --> Undefined index: resultado
+#0 C:\xampp\htdocs\nanko\app\Views\Administrador\Modal\detalles_dosis.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\nanko\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Administrador/M...', Array, true)
+#3 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(56): view('Administrador/M...', Array)
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->get_dosis()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-09 00:48:12 --> Undefined index: id_dosis
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(101): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->eliminar_dosis()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-09 23:29:55 --> Undefined index: id_prod
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(236): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 236, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->editar_dosis()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-09 23:30:02 --> Undefined index: id_prod
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(236): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 236, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->editar_dosis()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-09 23:31:15 --> Undefined index: id_dosis
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(234): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 234, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->editar_dosis()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-09 23:31:55 --> Undefined index: id_dosis
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(234): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 234, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->editar_dosis()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-09 23:32:43 --> Undefined index: id_ds
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(234): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 234, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->editar_dosis()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-09 23:47:00 --> Descifrado: autenticación fallida.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(212): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->editar_dosis()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-11-09 23:48:28 --> Descifrado: autenticación fallida.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Handlers\OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(212): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->editar_dosis()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-11-09 23:50:09 --> Undefined variable: post
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(255): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 255, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->editar_dosis()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-11-09 23:51:30 --> No hay datos para {0}
+#0 C:\xampp\htdocs\nanko\system\Model.php(834): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(272): CodeIgniter\Model->update(Array)
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->editar_dosis()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-11-09 23:52:02 --> Undefined variable: subir
+#0 C:\xampp\htdocs\nanko\app\Views\Administrador\Modal\editar_dosis.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\nanko\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Administrador/M...', Array, true)
+#3 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(250): view('Administrador/M...', Array)
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->editar_dosis()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-09 23:52:04 --> Undefined variable: subir
+#0 C:\xampp\htdocs\nanko\app\Views\Administrador\Modal\editar_dosis.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\nanko\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Administrador/M...', Array, true)
+#3 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(250): view('Administrador/M...', Array)
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->editar_dosis()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-11-09 23:53:07 --> Undefined variable: subir
+#0 C:\xampp\htdocs\nanko\app\Views\Administrador\Modal\editar_dosis.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\nanko\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Administrador/M...', Array, true)
+#3 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(250): view('Administrador/M...', Array)
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->editar_dosis()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}

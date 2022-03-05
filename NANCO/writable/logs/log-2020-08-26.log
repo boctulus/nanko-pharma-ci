@@ -1,0 +1,66 @@
+CRITICAL - 2020-08-26 00:07:07 --> Archivo inválido: {0}
+#0 C:\xampp\htdocs\nanko\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Adminsitrador/s...')
+#1 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Adminsitrador/s...', Array, true)
+#2 C:\xampp\htdocs\nanko\app\Views\Administrador\mostrar_productos.php(97): view('Adminsitrador/s...')
+#3 C:\xampp\htdocs\nanko\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Administrador/m...', Array, true)
+#5 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(189): view('Administrador/m...')
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->mostrar_productos()
+#7 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#8 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-08-26 00:07:19 --> Archivo inválido: {0}
+#0 C:\xampp\htdocs\nanko\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Adminsitrador/s...')
+#1 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Adminsitrador/s...', Array, true)
+#2 C:\xampp\htdocs\nanko\app\Views\Administrador\mostrar_productos.php(97): view('Adminsitrador/s...')
+#3 C:\xampp\htdocs\nanko\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Administrador/m...', Array, true)
+#5 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(189): view('Administrador/m...')
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->mostrar_productos()
+#7 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#8 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-08-26 01:32:11 --> Call to a member function getFlashdata() on null
+#0 C:\xampp\htdocs\nanko\system\View\View.php(246): include()
+#1 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Administrador/m...', Array, true)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(178): view('Administrador/m...')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->mostrar_usuarios()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-26 01:51:34 --> Los campos permitidos deben especificarse para el modelo: {0}
+#0 C:\xampp\htdocs\nanko\system\Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Logi...')
+#1 C:\xampp\htdocs\nanko\system\Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(128): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->nuevo_usuario()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-26 01:57:41 --> Los campos permitidos deben especificarse para el modelo: {0}
+#0 C:\xampp\htdocs\nanko\system\Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Logi...')
+#1 C:\xampp\htdocs\nanko\system\Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(128): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->nuevo_usuario()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-26 02:00:52 --> Los campos permitidos deben especificarse para el modelo: {0}
+#0 C:\xampp\htdocs\nanko\system\Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Logi...')
+#1 C:\xampp\htdocs\nanko\system\Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(129): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->nuevo_usuario()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}

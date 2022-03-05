@@ -1,0 +1,15 @@
+CRITICAL - 2020-12-07 22:57:38 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\nanko\app\Views\Cliente\Navbar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\nanko\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Cliente/Navbar', Array, true)
+#3 C:\xampp\htdocs\nanko\app\Views\Cliente\Inicio.php(22): view('Cliente/Navbar')
+#4 C:\xampp\htdocs\nanko\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Cliente/Inicio', Array, true)
+#6 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(74): view('Cliente/Inicio', Array)
+#7 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(15): App\Controllers\Clientes->mostrar_inicio()
+#8 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Clientes->index()
+#9 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#10 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#13 {main}

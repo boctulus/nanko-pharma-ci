@@ -1,0 +1,25 @@
+CRITICAL - 2020-12-05 18:05:06 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\nanko\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\nanko\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\nanko\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(26): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(17): App\Controllers\Clientes->mostrar_inicio()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Clientes->index()
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-12-05 18:14:59 --> Column 'subir_2' cannot be null
+#0 C:\xampp\htdocs\nanko\system\Database\MySQLi\Connection.php(331): mysqli->query('INSERT INTO `do...')
+#1 C:\xampp\htdocs\nanko\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `do...')
+#2 C:\xampp\htdocs\nanko\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `do...')
+#3 C:\xampp\htdocs\nanko\system\Database\BaseBuilder.php(2249): CodeIgniter\Database\BaseConnection->query('INSERT INTO `do...', Array, false)
+#4 C:\xampp\htdocs\nanko\system\Model.php(755): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(92): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->nueva_dosis()
+#7 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#8 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}

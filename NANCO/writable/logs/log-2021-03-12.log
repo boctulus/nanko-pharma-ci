@@ -1,0 +1,26 @@
+CRITICAL - 2021-03-12 16:06:08 --> The api key or merchant id are invalid
+#0 /home1/nankocom/nanko/app/ThirdParty/Openpay/data/OpenpayApiConnector.php(204): OpenpayApiConnector->handleRequestError('{"http_code":40...', 401, Array)
+#1 /home1/nankocom/nanko/app/ThirdParty/Openpay/data/OpenpayApiConnector.php(66): OpenpayApiConnector->interpretResponse('{"http_code":40...', 401)
+#2 /home1/nankocom/nanko/app/ThirdParty/Openpay/data/OpenpayApiConnector.php(284): OpenpayApiConnector->_request('post', '/customers', Array)
+#3 /home1/nankocom/nanko/app/ThirdParty/Openpay/data/OpenpayApiResourceBase.php(270): OpenpayApiConnector::request('post', '/customers', Array)
+#4 /home1/nankocom/nanko/app/ThirdParty/Openpay/data/OpenpayApiDerivedResource.php(63): OpenpayApiResourceBase->_create('OpenpayCustomer', Array, Array)
+#5 /home1/nankocom/nanko/app/Libraries/Pago.php(93): OpenpayApiDerivedResource->add(Array)
+#6 /home1/nankocom/nanko/app/Controllers/Colaboradores.php(201): App\Libraries\Pago->add_client(Array)
+#7 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Colaboradores->nuevo_colaborador()
+#8 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#9 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-03-12 16:06:46 --> The api key or merchant id are invalid
+#0 /home1/nankocom/nanko/app/ThirdParty/Openpay/data/OpenpayApiConnector.php(204): OpenpayApiConnector->handleRequestError('{"http_code":40...', 401, Array)
+#1 /home1/nankocom/nanko/app/ThirdParty/Openpay/data/OpenpayApiConnector.php(66): OpenpayApiConnector->interpretResponse('{"http_code":40...', 401)
+#2 /home1/nankocom/nanko/app/ThirdParty/Openpay/data/OpenpayApiConnector.php(284): OpenpayApiConnector->_request('post', '/customers', Array)
+#3 /home1/nankocom/nanko/app/ThirdParty/Openpay/data/OpenpayApiResourceBase.php(270): OpenpayApiConnector::request('post', '/customers', Array)
+#4 /home1/nankocom/nanko/app/ThirdParty/Openpay/data/OpenpayApiDerivedResource.php(63): OpenpayApiResourceBase->_create('OpenpayCustomer', Array, Array)
+#5 /home1/nankocom/nanko/app/Libraries/Pago.php(93): OpenpayApiDerivedResource->add(Array)
+#6 /home1/nankocom/nanko/app/Controllers/Colaboradores.php(201): App\Libraries\Pago->add_client(Array)
+#7 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Colaboradores->nuevo_colaborador()
+#8 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#9 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 {main}

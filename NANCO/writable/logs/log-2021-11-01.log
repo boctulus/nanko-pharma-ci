@@ -1,0 +1,16 @@
+CRITICAL - 2021-11-01 15:07:31 --> Descifrado: autenticación fallida.
+#0 /home3/nankoco1/nanko/system/Encryption/Handlers/OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /home3/nankoco1/nanko/app/Controllers/Clientes.php(2302): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 /home3/nankoco1/nanko/system/CodeIgniter.php(914): App\Controllers\Clientes->calcular_dosis()
+#3 /home3/nankoco1/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#4 /home3/nankoco1/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/nankoco1/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-11-01 19:44:14 --> Descifrado: autenticación fallida.
+#0 /home3/nankoco1/nanko/system/Encryption/Handlers/OpenSSLHandler.php(159): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+#1 /home3/nankoco1/nanko/app/Controllers/Clientes.php(2302): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('')
+#2 /home3/nankoco1/nanko/system/CodeIgniter.php(914): App\Controllers\Clientes->calcular_dosis()
+#3 /home3/nankoco1/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#4 /home3/nankoco1/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /home3/nankoco1/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}

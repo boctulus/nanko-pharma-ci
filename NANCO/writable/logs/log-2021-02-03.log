@@ -1,0 +1,14 @@
+CRITICAL - 2021-02-03 00:39:12 --> Undefined property: App\Controllers\Colaboradores::$openpay
+#0 /home1/nankocom/nanko/app/Controllers/Colaboradores.php(198): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home1/nankocom...', 198, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Colaboradores->nuevo_colaborador()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-03 20:51:23 --> Undefined property: App\Controllers\Colaboradores::$openpay
+#0 /home1/nankocom/nanko/app/Controllers/Colaboradores.php(198): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home1/nankocom...', 198, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Colaboradores->nuevo_colaborador()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Colaboradores))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

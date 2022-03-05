@@ -1,0 +1,42 @@
+CRITICAL - 2020-12-27 13:23:31 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\nanko\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\nanko\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\nanko\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(199): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(26): App\Controllers\Clientes->mostrar_inicio()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Clientes->index()
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-12-27 13:41:16 --> Call to a member function find() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Clientes->login()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-27 14:02:56 --> {0} no es una regla de validación válida.
+#0 C:\xampp\htdocs\nanko\system\Validation\Validation.php(333): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 C:\xampp\htdocs\nanko\system\Validation\Validation.php(189): CodeIgniter\Validation\Validation->processRules('instrucciones', 'Instrucciones', '', Array, Array)
+#2 C:\xampp\htdocs\nanko\system\Controller.php(219): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(472): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Clientes->agregar_direccion()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-27 23:11:01 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\nanko\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\nanko\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\nanko\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(213): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(26): App\Controllers\Clientes->mostrar_inicio()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Clientes->index()
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}

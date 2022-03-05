@@ -1,0 +1,97 @@
+CRITICAL - 2020-12-17 13:13:31 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\nanko\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\nanko\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\nanko\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(86): CodeIgniter\Model->findAll()
+#4 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(26): App\Controllers\Clientes->mostrar_inicio()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Clientes->index()
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-12-17 13:39:32 --> Undefined index: pais
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(275): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 275, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Clientes->agregar_direccion()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-17 17:49:09 --> Argument 2 passed to CodeIgniter\Model::set() must be of the type string or null, object given, called in C:\xampp\htdocs\nanko\app\Controllers\Clientes.php on line 392
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(392): CodeIgniter\Model->set('openpay', Object(OpenpayCustomer))
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Clientes->registrar_cliente()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-17 17:49:56 --> Argument 2 passed to CodeIgniter\Model::set() must be of the type string or null, object given, called in C:\xampp\htdocs\nanko\app\Controllers\Clientes.php on line 393
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(393): CodeIgniter\Model->set('openpay', Object(OpenpayCustomer))
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Clientes->registrar_cliente()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-17 17:51:11 --> Argument 2 passed to CodeIgniter\Model::set() must be of the type string or null, object given, called in C:\xampp\htdocs\nanko\app\Controllers\Clientes.php on line 396
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(396): CodeIgniter\Model->set('openpay', Object(OpenpayCustomer))
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Clientes->registrar_cliente()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-17 23:51:07 --> You must use the "set" method to update an entry.
+#0 C:\xampp\htdocs\nanko\system\Database\BaseBuilder.php(2430): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 C:\xampp\htdocs\nanko\system\Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#2 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(400): CodeIgniter\Model->update()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Clientes->registrar_cliente()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-12-17 23:53:05 --> Invalid ID detected (value '' received, alphanumeric string not longer than 20 characters expected)
+#0 C:\xampp\htdocs\nanko\app\ThirdParty\Openpay\data\OpenpayApiResourceBase.php(282): OpenpayApiResourceBase->validateId(NULL)
+#1 C:\xampp\htdocs\nanko\app\ThirdParty\Openpay\data\OpenpayApiDerivedResource.php(74): OpenpayApiResourceBase->_retrieve('OpenpayCustomer', NULL, Array)
+#2 C:\xampp\htdocs\nanko\app\Libraries\Pago.php(20): OpenpayApiDerivedResource->get(NULL)
+#3 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(334): App\Libraries\Pago->get_card_list(NULL)
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Clientes->metodo_pago()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-12-17 23:55:41 --> You must use the "set" method to update an entry.
+#0 C:\xampp\htdocs\nanko\system\Database\BaseBuilder.php(2430): CodeIgniter\Database\BaseBuilder->validateUpdate()
+#1 C:\xampp\htdocs\nanko\system\Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#2 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(400): CodeIgniter\Model->update()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Clientes->registrar_cliente()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-12-17 23:56:31 --> Unknown column 'id_testimonio' in 'where clause'
+#0 C:\xampp\htdocs\nanko\system\Database\MySQLi\Connection.php(331): mysqli->query('UPDATE `login` ...')
+#1 C:\xampp\htdocs\nanko\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `login` ...')
+#2 C:\xampp\htdocs\nanko\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `login` ...')
+#3 C:\xampp\htdocs\nanko\system\Database\BaseBuilder.php(2456): CodeIgniter\Database\BaseConnection->query('UPDATE `login` ...', Array, false)
+#4 C:\xampp\htdocs\nanko\system\Model.php(889): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(400): CodeIgniter\Model->update()
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Clientes->registrar_cliente()
+#7 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#8 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2020-12-17 23:59:28 --> Too few arguments to function OpenpayApiDerivedResource::getList(), 0 passed in C:\xampp\htdocs\nanko\app\Libraries\Pago.php on line 21 and exactly 1 expected
+#0 C:\xampp\htdocs\nanko\app\Libraries\Pago.php(21): OpenpayApiDerivedResource->getList()
+#1 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(334): App\Libraries\Pago->get_card_list('aaqwnrcdmbqbmvr...')
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Clientes->metodo_pago()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}

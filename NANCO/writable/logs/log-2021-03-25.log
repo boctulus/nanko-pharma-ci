@@ -1,0 +1,14 @@
+CRITICAL - 2021-03-25 22:18:15 --> syntax error, unexpected '=', expecting ')'
+#0 /home1/nankocom/nanko/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('Clientes/dosis')
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle('Clientes/dosis')
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-25 22:18:16 --> syntax error, unexpected '=', expecting ')'
+#0 /home1/nankocom/nanko/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('Clientes/dosis')
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(789): CodeIgniter\Router\Router->handle('Clientes/dosis')
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

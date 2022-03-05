@@ -1,0 +1,220 @@
+CRITICAL - 2020-09-11 00:12:48 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 C:\xampp\htdocs\nanko\system\Router\Router.php(195): CodeIgniter\Router\Router->autoRoute('Productos')
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('Productos')
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-11 01:40:39 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-11 01:45:12 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-11 01:45:13 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-11 01:45:13 --> Call to a member function findAll() on null
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-11 01:46:02 --> syntax error, unexpected ')', expecting '['
+#0 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Administrador/m...', Array, true)
+#1 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(74): view('Administrador/m...', Array)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-11 01:46:14 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-11 01:47:34 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-11 01:48:15 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-11 01:48:16 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-11 01:48:28 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-11 01:48:28 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-11 01:48:29 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-11 01:48:29 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-11 01:48:29 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-11 01:48:29 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-11 01:48:29 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-11 01:48:30 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-11 01:48:30 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-11 01:48:30 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-11 01:48:30 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-11 01:48:38 --> Unknown column 'categoria_padre' in 'where clause'
+#0 C:\xampp\htdocs\nanko\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\nanko\system\Database\BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\nanko\system\Database\BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\nanko\system\Database\BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\nanko\system\Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(31): CodeIgniter\Model->findAll()
+#6 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#7 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#8 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#9 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2020-09-11 01:49:37 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-09-11 01:50:26 --> syntax error, unexpected ')', expecting '['
+#0 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Administrador/m...', Array, true)
+#1 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(74): view('Administrador/m...', Array)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-09-11 02:12:47 --> Trying to get property 'id_categoria' of non-object
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-09-11 23:41:28 --> Trying to get property 'id_categoria' of non-object
+#0 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\nanko\app\Controllers\Productos.php(18): App\Controllers\Productos->mostrar_productos()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Productos->index()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}

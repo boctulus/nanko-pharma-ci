@@ -1,0 +1,12 @@
+CRITICAL - 2020-12-28 23:26:29 --> Undefined index: precio
+#0 C:\xampp\htdocs\nanko\app\Views\Cliente\Inicio.php(102): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 102, Array)
+#1 C:\xampp\htdocs\nanko\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Cliente/Inicio', Array, true)
+#3 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(268): view('Cliente/Inicio', Array)
+#4 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(26): App\Controllers\Clientes->mostrar_inicio()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Clientes->index()
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}

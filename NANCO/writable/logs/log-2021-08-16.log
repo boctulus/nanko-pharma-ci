@@ -1,0 +1,97 @@
+CRITICAL - 2021-08-16 22:34:11 --> Unable to connect to the database.
+#0 /home3/nankoco1/nanko/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home3/nankoco1/nanko/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home3/nankoco1/nanko/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /home3/nankoco1/nanko/app/Controllers/Clientes.php(349): CodeIgniter\Model->findAll()
+#4 /home3/nankoco1/nanko/app/Controllers/Clientes.php(36): App\Controllers\Clientes->mostrar_inicio()
+#5 /home3/nankoco1/nanko/system/CodeIgniter.php(914): App\Controllers\Clientes->index()
+#6 /home3/nankoco1/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 /home3/nankoco1/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/nankoco1/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-16 22:34:16 --> Unable to connect to the database.
+#0 /home3/nankoco1/nanko/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home3/nankoco1/nanko/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home3/nankoco1/nanko/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /home3/nankoco1/nanko/app/Controllers/Clientes.php(349): CodeIgniter\Model->findAll()
+#4 /home3/nankoco1/nanko/app/Controllers/Clientes.php(36): App\Controllers\Clientes->mostrar_inicio()
+#5 /home3/nankoco1/nanko/system/CodeIgniter.php(914): App\Controllers\Clientes->index()
+#6 /home3/nankoco1/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 /home3/nankoco1/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/nankoco1/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-16 22:34:18 --> Unable to connect to the database.
+#0 /home3/nankoco1/nanko/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home3/nankoco1/nanko/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home3/nankoco1/nanko/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /home3/nankoco1/nanko/app/Controllers/Clientes.php(349): CodeIgniter\Model->findAll()
+#4 /home3/nankoco1/nanko/app/Controllers/Clientes.php(36): App\Controllers\Clientes->mostrar_inicio()
+#5 /home3/nankoco1/nanko/system/CodeIgniter.php(914): App\Controllers\Clientes->index()
+#6 /home3/nankoco1/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 /home3/nankoco1/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/nankoco1/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-16 22:34:20 --> Unable to connect to the database.
+#0 /home3/nankoco1/nanko/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home3/nankoco1/nanko/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home3/nankoco1/nanko/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /home3/nankoco1/nanko/app/Controllers/Clientes.php(2420): CodeIgniter\Model->findAll()
+#4 /home3/nankoco1/nanko/system/CodeIgniter.php(914): App\Controllers\Clientes->dosis()
+#5 /home3/nankoco1/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#6 /home3/nankoco1/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home3/nankoco1/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-16 22:34:22 --> Unable to connect to the database.
+#0 /home3/nankoco1/nanko/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home3/nankoco1/nanko/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home3/nankoco1/nanko/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /home3/nankoco1/nanko/app/Controllers/Clientes.php(349): CodeIgniter\Model->findAll()
+#4 /home3/nankoco1/nanko/app/Controllers/Clientes.php(36): App\Controllers\Clientes->mostrar_inicio()
+#5 /home3/nankoco1/nanko/system/CodeIgniter.php(914): App\Controllers\Clientes->index()
+#6 /home3/nankoco1/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 /home3/nankoco1/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/nankoco1/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-16 22:34:36 --> Unable to connect to the database.
+#0 /home3/nankoco1/nanko/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home3/nankoco1/nanko/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home3/nankoco1/nanko/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /home3/nankoco1/nanko/app/Controllers/Clientes.php(349): CodeIgniter\Model->findAll()
+#4 /home3/nankoco1/nanko/app/Controllers/Clientes.php(36): App\Controllers\Clientes->mostrar_inicio()
+#5 /home3/nankoco1/nanko/system/CodeIgniter.php(914): App\Controllers\Clientes->index()
+#6 /home3/nankoco1/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 /home3/nankoco1/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/nankoco1/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-16 22:34:42 --> Unable to connect to the database.
+#0 /home3/nankoco1/nanko/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home3/nankoco1/nanko/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home3/nankoco1/nanko/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /home3/nankoco1/nanko/app/Controllers/Clientes.php(2420): CodeIgniter\Model->findAll()
+#4 /home3/nankoco1/nanko/system/CodeIgniter.php(914): App\Controllers\Clientes->dosis()
+#5 /home3/nankoco1/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#6 /home3/nankoco1/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home3/nankoco1/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-16 22:37:33 --> Unable to connect to the database.
+#0 /home3/nankoco1/nanko/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home3/nankoco1/nanko/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home3/nankoco1/nanko/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /home3/nankoco1/nanko/app/Controllers/Clientes.php(349): CodeIgniter\Model->findAll()
+#4 /home3/nankoco1/nanko/app/Controllers/Clientes.php(36): App\Controllers\Clientes->mostrar_inicio()
+#5 /home3/nankoco1/nanko/system/CodeIgniter.php(914): App\Controllers\Clientes->index()
+#6 /home3/nankoco1/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 /home3/nankoco1/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/nankoco1/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-08-16 22:48:40 --> Unable to connect to the database.
+#0 /home3/nankoco1/nanko/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home3/nankoco1/nanko/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home3/nankoco1/nanko/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /home3/nankoco1/nanko/app/Controllers/Clientes.php(349): CodeIgniter\Model->findAll()
+#4 /home3/nankoco1/nanko/app/Controllers/Clientes.php(36): App\Controllers\Clientes->mostrar_inicio()
+#5 /home3/nankoco1/nanko/system/CodeIgniter.php(914): App\Controllers\Clientes->index()
+#6 /home3/nankoco1/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 /home3/nankoco1/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/nankoco1/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

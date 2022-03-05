@@ -1,0 +1,1098 @@
+CRITICAL - 2020-08-18 01:30:13 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:30:14 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:30:38 --> Archivo inválido: {0}
+#0 C:\xampp\htdocs\nanko\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Auth/header.php')
+#1 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Auth/header', Array, true)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(197): view('Auth/header')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->login()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 01:30:38 --> Archivo inválido: {0}
+#0 C:\xampp\htdocs\nanko\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Auth/header.php')
+#1 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Auth/header', Array, true)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(197): view('Auth/header')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->login()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 01:30:38 --> Archivo inválido: {0}
+#0 C:\xampp\htdocs\nanko\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Auth/header.php')
+#1 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Auth/header', Array, true)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(197): view('Auth/header')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->login()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 01:30:38 --> Archivo inválido: {0}
+#0 C:\xampp\htdocs\nanko\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Auth/header.php')
+#1 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Auth/header', Array, true)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(197): view('Auth/header')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->login()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 01:30:39 --> Archivo inválido: {0}
+#0 C:\xampp\htdocs\nanko\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Auth/header.php')
+#1 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Auth/header', Array, true)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(197): view('Auth/header')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->login()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 01:30:39 --> Archivo inválido: {0}
+#0 C:\xampp\htdocs\nanko\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Auth/header.php')
+#1 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Auth/header', Array, true)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(197): view('Auth/header')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->login()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 01:32:14 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:32:15 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:33:49 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:33:50 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:33:50 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:33:50 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:34:43 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:34:44 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:34:44 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:34:44 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:34:44 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:36:29 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:36:29 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:36:29 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:36:29 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:40:50 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:40:51 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:40:51 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:42:54 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:42:55 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:42:55 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:42:55 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:42:58 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:43:10 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:43:10 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:43:11 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:43:11 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:43:11 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:43:15 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:43:21 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:43:29 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:43:29 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:43:52 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:43:53 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:44:00 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:44:00 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:44:01 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:44:01 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:44:01 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:44:15 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:44:38 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:47:13 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:47:13 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:47:14 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:47:14 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:47:21 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:47:29 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:47:44 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:47:44 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:47:45 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:47:45 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:47:45 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:47:45 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:48:13 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:48:13 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:48:14 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:48:14 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:48:14 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:48:14 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 01:48:15 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 09:34:38 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 09:34:39 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 09:34:39 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 09:34:39 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 09:55:23 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('asd/login')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 09:55:25 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('asd/login')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 09:55:26 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('asd/login')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 09:55:26 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('asd/login')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 09:55:26 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('asd/login')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 09:55:27 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('asd/login')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 09:55:27 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('asd/login')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 09:55:27 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('asd/login')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 09:55:27 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('asd/login')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 09:55:27 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('asd/login')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 09:55:34 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('asd/login')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 09:55:35 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('asd/login')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 09:55:35 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('asd/login')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 09:55:35 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('asd/login')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 09:55:35 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('asd/login')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 09:55:59 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('asd/login')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 09:56:00 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('asd/login')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 09:56:00 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('asd/login')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 09:56:00 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('asd/login')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 09:59:44 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('asd/login')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 09:59:45 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('asd/login')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:00:02 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('Administrador/l...')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:00:03 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('Administrador/l...')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:00:03 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('Administrador/l...')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:00:11 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('/login')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:00:12 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('/login')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:00:12 --> No se puede encontrar la ruta {0, string} mientras se realiza el enrutamiento inverso.
+#0 C:\xampp\htdocs\nanko\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\nanko\system\Common.php(845): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\nanko\app\Controllers\Administrador.php(21): redirect('/login')
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->index()
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:11:23 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(40): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:11:23 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(40): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:11:53 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(40): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:11:53 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(40): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:11:54 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(40): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:11:54 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(40): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:11:54 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(40): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:12:12 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(40): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:12:12 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(40): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:12:12 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(40): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:12:13 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(40): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:12:13 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(40): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:12:13 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(40): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:12:13 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(40): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:12:13 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(40): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:12:13 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(40): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:12:14 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(40): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:12:14 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(40): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:17:00 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(40): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:18:23 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(42): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:18:24 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(42): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:18:24 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(42): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:18:24 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(42): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:18:25 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(42): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:18:25 --> El encriptador necesita una clave de inicio.
+#0 C:\xampp\htdocs\nanko\system\Encryption\Encryption.php(155): CodeIgniter\Encryption\Exceptions\EncryptionException::forNeedsStarterKey()
+#1 C:\xampp\htdocs\nanko\system\Config\Services.php(251): CodeIgniter\Encryption\Encryption->initialize(Object(Config\Encryption))
+#2 C:\xampp\htdocs\nanko\app\Controllers\BaseController.php(42): CodeIgniter\Config\Services::encrypter()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(887): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-08-18 10:22:16 --> Call to undefined function App\Controllers\createKey()
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->login()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 10:22:16 --> Call to undefined function App\Controllers\createKey()
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->login()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 10:23:53 --> Call to undefined function App\Controllers\createKey()
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->login()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 10:23:53 --> Call to undefined function App\Controllers\createKey()
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->login()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 10:23:54 --> Call to undefined function App\Controllers\createKey()
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->login()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 10:23:54 --> Call to undefined function App\Controllers\createKey()
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->login()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 10:23:54 --> Call to undefined function App\Controllers\createKey()
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->login()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-08-18 10:30:29 --> Call to undefined function App\Controllers\createKey()
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Administrador->login()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Administrador))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}

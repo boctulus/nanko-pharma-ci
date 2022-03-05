@@ -1,0 +1,27 @@
+CRITICAL - 2020-12-04 18:33:52 --> Undefined index: nombre
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(17): App\Controllers\Clientes->mostrar_inicio()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Clientes->index()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-04 18:34:28 --> Undefined index: img
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(17): App\Controllers\Clientes->mostrar_inicio()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Clientes->index()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2020-12-04 18:35:12 --> Call to undefined method App\Models\Padecimientos_model::order_by
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(52): CodeIgniter\Model->__call('order_by', Array)
+#1 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(17): App\Controllers\Clientes->mostrar_inicio()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Clientes->index()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#4 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}

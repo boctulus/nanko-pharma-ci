@@ -1,0 +1,620 @@
+CRITICAL - 2020-12-14 14:33:43 --> Class 'App\Controllers\Pago' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 14:33:59 --> Class 'App\Libraries\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\nanko\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nanko\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\P...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\P...')
+#4 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(20): spl_autoload_call('App\\Libraries\\P...')
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#7 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-12-14 14:35:26 --> Class 'App\Libraries\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\nanko\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nanko\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\P...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\P...')
+#4 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(20): spl_autoload_call('App\\Libraries\\P...')
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#7 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-12-14 14:35:27 --> Class 'App\Libraries\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\nanko\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nanko\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\P...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\P...')
+#4 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(20): spl_autoload_call('App\\Libraries\\P...')
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#7 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-12-14 14:35:27 --> Class 'App\Libraries\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\nanko\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nanko\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\P...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\P...')
+#4 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(20): spl_autoload_call('App\\Libraries\\P...')
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#7 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-12-14 14:35:28 --> Class 'App\Libraries\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\Autoloader\Autoloader.php(365): require_once()
+#1 C:\xampp\htdocs\nanko\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nanko\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\P...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\P...')
+#4 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(20): spl_autoload_call('App\\Libraries\\P...')
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#7 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-12-14 14:37:28 --> Class 'App\Libraries\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 14:37:28 --> Class 'App\Libraries\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 14:37:28 --> Class 'App\Libraries\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 14:37:28 --> Class 'App\Libraries\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 14:37:29 --> Class 'App\Libraries\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 14:37:29 --> Class 'App\Libraries\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 14:37:29 --> Class 'App\Libraries\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 14:37:29 --> Class 'App\Libraries\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 14:37:29 --> Class 'App\Libraries\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 14:37:29 --> Class 'App\Libraries\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 14:37:30 --> Class 'App\Libraries\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 14:37:30 --> Class 'App\Libraries\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:01:43 --> Class 'App\ThirdParty\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:01:43 --> Class 'App\ThirdParty\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:01:44 --> Class 'App\ThirdParty\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:01:44 --> Class 'App\ThirdParty\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:01:44 --> Class 'App\ThirdParty\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:01:44 --> Class 'App\ThirdParty\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:01:44 --> Class 'App\ThirdParty\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:01:44 --> Class 'App\ThirdParty\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:01:45 --> Class 'App\ThirdParty\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:01:45 --> Class 'App\ThirdParty\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:01:45 --> Class 'App\ThirdParty\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:01:45 --> Class 'App\ThirdParty\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:01:45 --> Class 'App\ThirdParty\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:01:45 --> Class 'App\ThirdParty\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:01:45 --> Class 'App\ThirdParty\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:03:24 --> Class 'App\ThirdParty\Openpay\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:05:55 --> CodeIgniter\Router\Router::main(): Failed opening required 'C:\xampp\htdocs\nanko\app\Controllers/ThirdParty/Openpay/Openpay.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-14 15:06:09 --> Class 'App\Controllers\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:06:10 --> Class 'App\Controllers\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:06:11 --> Class 'App\Controllers\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:06:12 --> Class 'App\Controllers\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:06:12 --> Class 'App\Controllers\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:06:12 --> Class 'App\Controllers\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:06:12 --> Class 'App\Controllers\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:06:13 --> Class 'App\Controllers\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:06:13 --> Class 'App\Controllers\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:06:13 --> Class 'App\Controllers\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:06:13 --> Class 'App\Controllers\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 15:06:13 --> Class 'App\Controllers\Openpay' not found
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-14 16:03:19 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:03:20 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:03:21 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:03:21 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:03:21 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:03:21 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:03:21 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:03:21 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:03:21 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:03:22 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:03:22 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:03:22 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:03:22 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:03:22 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:05:42 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:05:43 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:05:43 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:05:43 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:05:43 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:05:44 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:05:44 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:05:44 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:05:44 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:05:44 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:05:44 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:05:45 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:05:45 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:05:45 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:05:46 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 16:05:49 --> Undefined property: App\Controllers\Clientes::$Openpay
+#0 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(886): App\Controllers\Clientes->__construct()
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-12-14 17:40:29 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'C:\xampp\htdocs\nanko\app\/ThirdParty/Openpay/Openpay.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-14 17:40:30 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'C:\xampp\htdocs\nanko\app\/ThirdParty/Openpay/Openpay.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-14 17:40:46 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'C:\xampp\htdocs\nanko\app\/ThirdParty/Openpay/Openpay.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-14 17:40:47 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'C:\xampp\htdocs\nanko\app\/ThirdParty/Openpay/Openpay.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-14 17:40:47 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'C:\xampp\htdocs\nanko\app\/ThirdParty/Openpay/Openpay.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-14 17:40:47 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'C:\xampp\htdocs\nanko\app\/ThirdParty/Openpay/Openpay.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-12-14 19:03:12 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\nanko\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\nanko\system\Database\BaseBuilder.php(1952): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\nanko\system\Model.php(1673): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#3 C:\xampp\htdocs\nanko\system\Model.php(1176): CodeIgniter\Model->countAllResults(false)
+#4 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(468): CodeIgniter\Model->paginate(9)
+#5 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Clientes->tienda()
+#6 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#10 {main}

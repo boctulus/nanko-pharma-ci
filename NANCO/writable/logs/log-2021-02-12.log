@@ -1,0 +1,49 @@
+CRITICAL - 2021-02-12 00:35:27 --> Undefined index: nombre
+#0 /home1/nankocom/nanko/app/Controllers/Padecimientos.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home1/nankocom...', 56, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Padecimientos->editar_padecimiento()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padecimientos))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-12 00:37:16 --> Undefined index: nombre
+#0 /home1/nankocom/nanko/app/Controllers/Padecimientos.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home1/nankocom...', 56, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Padecimientos->editar_padecimiento()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padecimientos))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-12 00:43:20 --> Undefined index: id_pad
+#0 /home1/nankocom/nanko/app/Controllers/Padecimientos.php(66): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home1/nankocom...', 66, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Padecimientos->editar_padecimiento()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padecimientos))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-12 22:45:18 --> Undefined property: App\Controllers\Productos::$input
+#0 /home1/nankocom/nanko/app/Controllers/Productos.php(186): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home1/nankocom...', 186, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Productos->nuevo_producto()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-12 23:01:10 --> Undefined index: nombre
+#0 /home1/nankocom/nanko/app/Controllers/Padecimientos.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home1/nankocom...', 56, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Padecimientos->editar_padecimiento()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padecimientos))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-12 23:01:49 --> Undefined index: nombre
+#0 /home1/nankocom/nanko/app/Controllers/Padecimientos.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home1/nankocom...', 56, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Padecimientos->editar_padecimiento()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padecimientos))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-02-12 23:07:58 --> Undefined index: nombre
+#0 /home1/nankocom/nanko/app/Controllers/Padecimientos.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home1/nankocom...', 56, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Padecimientos->editar_padecimiento()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Padecimientos))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

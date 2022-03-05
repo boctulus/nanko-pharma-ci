@@ -1,0 +1,22 @@
+CRITICAL - 2020-12-26 00:32:34 --> Too few arguments to function App\Controllers\Clientes::crear_orden(), 0 passed in C:\xampp\htdocs\nanko\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Clientes->crear_orden()
+#1 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#2 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-12-26 23:01:02 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\nanko\app\Views\Cliente\Footer.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 196, Array)
+#1 C:\xampp\htdocs\nanko\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Cliente/Footer', Array, true)
+#3 C:\xampp\htdocs\nanko\app\Views\Cliente\Inicio.php(165): view('Cliente/Footer')
+#4 C:\xampp\htdocs\nanko\system\View\View.php(246): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\nanko\system\Common.php(1119): CodeIgniter\View\View->render('Cliente/Inicio', Array, true)
+#6 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(249): view('Cliente/Inicio', Array)
+#7 C:\xampp\htdocs\nanko\app\Controllers\Clientes.php(26): App\Controllers\Clientes->mostrar_inicio()
+#8 C:\xampp\htdocs\nanko\system\CodeIgniter.php(914): App\Controllers\Clientes->index()
+#9 C:\xampp\htdocs\nanko\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#10 C:\xampp\htdocs\nanko\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\nanko\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\nanko\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#13 {main}

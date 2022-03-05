@@ -1,0 +1,34 @@
+CRITICAL - 2021-01-13 14:44:48 --> Undefined index: resultado
+#0 /home1/nankocom/nanko/app/Controllers/Clientes.php(1332): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home1/nankocom...', 1332, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Clientes->dosis()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-13 14:44:50 --> Undefined index: resultado
+#0 /home1/nankocom/nanko/app/Controllers/Clientes.php(1332): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home1/nankocom...', 1332, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Clientes->dosis()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-13 14:44:53 --> Undefined index: resultado
+#0 /home1/nankocom/nanko/app/Controllers/Clientes.php(1332): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home1/nankocom...', 1332, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Clientes->dosis()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-01-13 19:08:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND `edad_max` >=) AND (`peso_min` <=  AND `peso_max` >=)
+ LIMIT 1' at line 3
+#0 /home1/nankocom/nanko/system/Database/MySQLi/Connection.php(331): mysqli->query('SELECT *\nFROM `...')
+#1 /home1/nankocom/nanko/system/Database/BaseConnection.php(741): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /home1/nankocom/nanko/system/Database/BaseConnection.php(669): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /home1/nankocom/nanko/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /home1/nankocom/nanko/system/Model.php(506): CodeIgniter\Database\BaseBuilder->get()
+#5 /home1/nankocom/nanko/app/Controllers/Clientes.php(1274): CodeIgniter\Model->first()
+#6 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Clientes->calcular_dosis()
+#7 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#8 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#10 {main}

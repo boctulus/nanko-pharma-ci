@@ -1,0 +1,7 @@
+CRITICAL - 2021-06-02 13:37:52 --> Invalid argument supplied for foreach()
+#0 /home1/nankocom/nanko/app/Controllers/Clientes.php(1326): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home1/nankocom...', 1326, Array)
+#1 /home1/nankocom/nanko/system/CodeIgniter.php(914): App\Controllers\Clientes->crear_orden()
+#2 /home1/nankocom/nanko/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 /home1/nankocom/nanko/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home1/nankocom/public_html/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
